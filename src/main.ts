@@ -261,7 +261,7 @@ export default class ImageCPPlugin extends Plugin {
 			}
 		}
 
-		let linkName :string ;
+		let linkName :string;
 		if(this.settings.IsAddRelativePath){
 			linkName = this.settings.IsEscapeUriPath ? encodeURI(dirPath) : dirPath
 		}else{
